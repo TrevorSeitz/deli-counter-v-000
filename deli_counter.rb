@@ -4,7 +4,7 @@ def line(line_array)
   else
     current_line = "The line is currently: "
     line_array.each do |customer|
-      current_line << "#{line_array.index(customer)}. #{customer} "
+      current_line << "#{line_array.index(customer) +1}. #{customer} "
     end
     puts current_line
   end
