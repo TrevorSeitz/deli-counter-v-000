@@ -2,6 +2,9 @@ def line(line_array)
   if line_array.size == 0
     puts "The line is currently empty."
   else
+    current_line = "The line is currently: "
+    line_array.each do |customer|
+      current_line << "#{line_array.index(customer)}. #{customer} "
     puts line_array
   end
 end
