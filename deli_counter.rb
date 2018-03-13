@@ -2,13 +2,12 @@ def line(line_array)
   if line_array.size == 0
     puts "The line is currently empty."
   else
-    puts line
+    puts line_array
   end
 end
 
 def take_a_number(line_array, customer_name)
   line_array << customer_name
-  # puts "The line is currently: #{line_array.index(customer_name) + 1}. #{customer_name}"
   puts "Welcome, #{customer_name}. You are number #{line_array.index(customer_name) + 1} in line."
 end
 
