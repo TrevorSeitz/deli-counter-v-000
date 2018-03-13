@@ -2,9 +2,9 @@ def line(line_array)
   if line_array.size == 0
     puts "The line is currently empty."
   else
-    current_line = "The line is currently: "
+    current_line = "The line is currently:"
     line_array.each do |customer|
-      current_line << "#{line_array.index(customer) +1}. #{customer} "
+      current_line << " #{line_array.index(customer) +1}. #{customer}"
     end
     puts current_line
   end
