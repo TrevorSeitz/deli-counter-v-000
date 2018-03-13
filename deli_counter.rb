@@ -8,7 +8,8 @@ end
 
 def take_a_number(line_array, customer_name)
   line_array << customer_name
-  puts "The line is currently: #{line_array.index(customer_name) + 1}. #{customer_name}"
+  # puts "The line is currently: #{line_array.index(customer_name) + 1}. #{customer_name}"
+  puts "Welcome, #{customer_name}. You are number #{line_array.index(customer_name) + 1} in line."
 end
 
 def now_serving(line_array)
