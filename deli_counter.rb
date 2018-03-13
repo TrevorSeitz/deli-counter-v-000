@@ -12,5 +12,6 @@ def take_a_number(line_array, customer_name)
 end
 
 def now_serving(line_array)
-  puts line_array.shift
+  current_customer = line_array.shift
+  puts current_customer
 end
