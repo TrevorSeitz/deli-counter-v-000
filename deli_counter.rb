@@ -1,6 +1,6 @@
 katz_deli = []
 
-def line(line_array)
+def line
   if line_array.size == 0
     puts "The line is currently empty."
   else
