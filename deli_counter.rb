@@ -4,12 +4,15 @@ def line(line_array)
   if line_array.size == 0
     "The line is currently empty."
   else
-    line
+    puts line
   end
 end
 
 def take_a_number(line_array, customer_name)
+  line_array << customer_name
+  puts (line_array.index(customer_name) + 1)+ ": " + customer_name
 end
 
 def now_serving(line_array)
+  puts line_array.shift
 end
